@@ -1,0 +1,30 @@
+I"�<p>As a data scientist, I use Hive SQL almost everyday. When I first used Hive, I spent lots of time debugging and understanding my Hive query errors. If you are in the same situation, this article is for you:)</p>
+
+<p>The major difference between Hive and relational databases like MySQL is that Hive is based on distributed system. Most of time, Hive is running within the Hadoop ecosystem, which means it uses HDFS for file storage and MapReduce for computing.</p>
+
+<p>Below, I will try to illustrate two common Hive query errors based on Hive’s underlying mechanism using HDFS and MapReduce.</p>
+
+<h2 id="-symptom1-query-failed-before-any-mapreduce-task-starts-log-says-exceeds--of-task-limit">🤒 Symptom1: Query failed before any map/reduce task starts. Log says “exceeds # of task limit”</h2>
+<h3 id="-why">🤔 Why?</h3>
+
+<p>In a Hadoop cluster, there is a limited number of processes can be running spontaneously. This can be configured by cluster admin by setting “org.apache.hadoop.mapred.JobInProgress.initTasks”.  Since Hive query is computed by being partitioned into multiple map/reduce tasks, each task is a process. If you set the the split size to be too small, your query job will be splitted into many tasks. Having more tasks will definitely increase the parallelism of the query and accelerate the running time. However, if the number of tasks is too big and exceed the number of task limit, then it will be killed by the cluster.</p>
+<h3 id="-solution">💊 Solution:</h3>
+
+<p>Set mapred.max.split.size to be smaller.</p>
+
+<h2 id="-symptom2-the-query-exits-after-a-few-mapsreduces-tasks-running-log-says-disk-quota-exceeded">🤒 Symptom2: The query exits after a few maps/reduces tasks running. Log says “disk quota exceeded”</h2>
+<h3 id="-why-1">🤔 Why?</h3>
+
+<p>First, congrats! If your query has successfully kicked out the map/reduce processes, then you have no syntax error or task splitting error. What is happening is that your intermediate result has exceeded the disk space. Map/Reduce task runs in a datanode. In order for the datanode to deliver the result data into HDFS, it will first need to write the results in its local disk. Although the HDFS normally has adequate space, a datanode may not have enough local disk space or it is configured to have limited space for each user/task. A complex query could generate lots of data in between, which exceeds the disk space of a datanode and kills the query.</p>
+<h3 id="-solution-1">💊 Solution:</h3>
+<ol>
+<li> Clean the data node for more space. </li>
+<li> Run the same query for smaller chunk of data. </li>
+<li> Replace the complex query with several simple queries. </li>
+</ol>
+
+<p>A Hive query can fail for many reasons. Sometimes, a random node failing could have stopped the query. In addition to the above symptoms which have clear solutions, I would also test out a very simple query to see whether or not it is a query-dependent error.</p>
+
+<p>Hope this is helpful!</p>
+
+:ET
