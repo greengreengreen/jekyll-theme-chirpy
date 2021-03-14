@@ -1,17 +1,17 @@
 
 
 <feed xmlns="http://www.w3.org/2005/Atom">
-  <id>xuanguo.com/</id>
+  <id>/</id>
   <title>Xuan Guo</title>
   <subtitle>A minimal, portfolio, sidebar, bootstrap Jekyll theme with responsive web design and focuses on text presentation.</subtitle>
-  <updated>2021-03-14T00:44:10-08:00</updated>
+  <updated>2021-03-14T00:48:42-08:00</updated>
   <author>
     <name>Xuan</name>
-    <uri>xuanguo.com/</uri>
+    <uri>/</uri>
   </author>
-  <link rel="self" type="application/atom+xml" href="xuanguo.com/feed.xml"/>
+  <link rel="self" type="application/atom+xml" href="/feed.xml"/>
   <link rel="alternate" type="text/html" hreflang="en-US"
-    href="xuanguo.com/"/>
+    href="/"/>
   <generator uri="https://jekyllrb.com/" version="4.2.0">Jekyll</generator>
   <rights> © 2021 Xuan </rights>
   <icon>/assets/img/favicons/favicon.ico</icon>
@@ -21,13 +21,13 @@
   
   <entry>
     <title>Binary Search Basics</title>
-    <link href="xuanguo.com/posts/binary-search-basic/" rel="alternate" type="text/html" title="Binary Search Basics" />
+    <link href="/posts/binary-search-basic/" rel="alternate" type="text/html" title="Binary Search Basics" />
     <published>2021-02-27T03:15:00-08:00</published>
   
     <updated>2021-02-27T03:15:00-08:00</updated>
   
-    <id>xuanguo.com/posts/binary-search-basic/</id>
-    <content src="xuanguo.com/posts/binary-search-basic/" />
+    <id>/posts/binary-search-basic/</id>
+    <content src="/posts/binary-search-basic/" />
     <author>
       <name>Xuan</name>
     </author>
@@ -67,13 +67,13 @@ The reason...
   
   <entry>
     <title>All of the Sorts</title>
-    <link href="xuanguo.com/posts/all-of-the-sorts/" rel="alternate" type="text/html" title="All of the Sorts" />
+    <link href="/posts/all-of-the-sorts/" rel="alternate" type="text/html" title="All of the Sorts" />
     <published>2021-02-15T13:16:00-08:00</published>
   
     <updated>2021-02-15T13:16:00-08:00</updated>
   
-    <id>xuanguo.com/posts/all-of-the-sorts/</id>
-    <content src="xuanguo.com/posts/all-of-the-sorts/" />
+    <id>/posts/all-of-the-sorts/</id>
+    <content src="/posts/all-of-the-sorts/" />
     <author>
       <name>Xuan</name>
     </author>
@@ -122,13 +122,13 @@ Overview
   
   <entry>
     <title>Next Greater Problem And Its Homies</title>
-    <link href="xuanguo.com/posts/next-greater/" rel="alternate" type="text/html" title="Next Greater Problem And Its Homies" />
+    <link href="/posts/next-greater/" rel="alternate" type="text/html" title="Next Greater Problem And Its Homies" />
     <published>2021-02-13T01:35:00-08:00</published>
   
     <updated>2021-02-13T01:35:00-08:00</updated>
   
-    <id>xuanguo.com/posts/next-greater/</id>
-    <content src="xuanguo.com/posts/next-greater/" />
+    <id>/posts/next-greater/</id>
+    <content src="/posts/next-greater/" />
     <author>
       <name>Xuan</name>
     </author>
@@ -161,13 +161,13 @@ I posted this a...
   
   <entry>
     <title>Two Common Hive Query Errors</title>
-    <link href="xuanguo.com/posts/two-common-hive-query-errors/" rel="alternate" type="text/html" title="Two Common Hive Query Errors" />
+    <link href="/posts/two-common-hive-query-errors/" rel="alternate" type="text/html" title="Two Common Hive Query Errors" />
     <published>2021-01-30T16:00:00-08:00</published>
   
     <updated>2021-01-30T16:00:00-08:00</updated>
   
-    <id>xuanguo.com/posts/two-common-hive-query-errors/</id>
-    <content src="xuanguo.com/posts/two-common-hive-query-errors/" />
+    <id>/posts/two-common-hive-query-errors/</id>
+    <content src="/posts/two-common-hive-query-errors/" />
     <author>
       <name>Xuan</name>
     </author>
