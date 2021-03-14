@@ -7,7 +7,7 @@ order: 4
 ## **What**
 Hi! My name is Xuan. I work as a data scientist. <br>
 This blog is documenting my ideas, thoughts, epiphanies, and side hustle progress. Moreover, it is also serving as a motivation for me to explore the unknown. <br>
-Nowadays, I am writing about data structures and algorithms, big data, English study, and data science. <br>
+Nowadays, I am writing about data structures and algorithms, big data, data science, and English exams. <br>
 
 ## **Why**
 Ideally speaking, <br>
@@ -20,4 +20,4 @@ Every once or twice a month, I summerize what I am doing. It could be a project,
 <br>
 
 <p align='right'>Xuan</p>
-<p align='right'>03/13/2021 at Sacramento</p>
+<p align='right'>03/14/2021 in Sacramento</p>

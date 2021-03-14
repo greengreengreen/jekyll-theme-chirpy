@@ -20,14 +20,12 @@ title: Xuan Guo  # the main title
 tagline: Samurai in the Shell # it will display as the sub-title
 
 description: >-                        # used by seo meta and the atom feed
-  A minimal, portfolio, sidebar,
-  bootstrap Jekyll theme with responsive web design
-  and focuses on text presentation.
+  I write about my learnings regarding data science, algorthms, English exams, and life hack. 
 
 # fill in the protocol & hostname for your site, e.g., 'https://username.github.io'
 url: 'https://xuanguo.com'
 
-author: Xuan                           # change to your full name
+author: Xuan Guo                          # change to your full name
 
 github:
   username: greengreengreen             # change to your github username
