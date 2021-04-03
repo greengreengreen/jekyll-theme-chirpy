@@ -1,5 +1,5 @@
 ---
-title: Summarized Quotes from the Book "Building a Career in Software"
+title: Summarized Quotes from the Book Building a Career in Software
 date: 2021-03-31 11:15:00 
 categories: [Reading, Career]
 tags: [career]     # TAG names should always be lowercase
