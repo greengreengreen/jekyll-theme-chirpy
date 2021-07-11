@@ -18,7 +18,7 @@ Below, I will try to illustrate two common Hive query errors based on Hive's und
 In a Hadoop cluster, there is a limited number of processes can be running spontaneously. This can be configured by cluster admin by setting “org.apache.hadoop.mapred.JobInProgress.initTasks”.  Since Hive query is computed by being partitioned into multiple map/reduce tasks, each task is a process. If you set the the split size to be too small, your query job will be splitted into many tasks. Having more tasks will definitely increase the parallelism of the query and accelerate the running time. However, if the number of tasks is too big and exceed the number of task limit, then it will be killed by the cluster. 
 ### 💊 Solution: 
 
-Set mapred.max.split.size to be smaller. 
+Set mapred.max.split.size to be bigger. 
 
 ## 🤒 Symptom2: The query exits after a few maps/reduces tasks running. Log says “disk quota exceeded"
 ### 🤔 Why? 

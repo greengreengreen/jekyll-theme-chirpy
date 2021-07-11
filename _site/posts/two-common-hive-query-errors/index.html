@@ -38,7 +38,7 @@
 <meta name="twitter:creator" content="@Xuan Guo" />
 <meta name="google-site-verification" content="google_meta_tag_verification" />
 <script type="application/ld+json">
-{"dateModified":"2021-01-30T16:00:00-08:00","description":"As a data scientist, I use Hive SQL almost everyday. When I first used Hive, I spent lots of time debugging and understanding my Hive query errors. If you are in the same situation, this article is for you:)","datePublished":"2021-01-30T16:00:00-08:00","mainEntityOfPage":{"@type":"WebPage","@id":"https://xuanguo.com/posts/two-common-hive-query-errors/"},"url":"https://xuanguo.com/posts/two-common-hive-query-errors/","author":{"@type":"Person","name":"Xuan Guo"},"@type":"BlogPosting","headline":"Two Common Hive Query Errors","@context":"https://schema.org"}</script>
+{"description":"As a data scientist, I use Hive SQL almost everyday. When I first used Hive, I spent lots of time debugging and understanding my Hive query errors. If you are in the same situation, this article is for you:)","headline":"Two Common Hive Query Errors","url":"https://xuanguo.com/posts/two-common-hive-query-errors/","dateModified":"2021-01-30T16:00:00-08:00","datePublished":"2021-01-30T16:00:00-08:00","author":{"@type":"Person","name":"Xuan Guo"},"@type":"BlogPosting","mainEntityOfPage":{"@type":"WebPage","@id":"https://xuanguo.com/posts/two-common-hive-query-errors/"},"@context":"https://schema.org"}</script>
 <!-- End Jekyll SEO tag -->
 
 
@@ -598,7 +598,7 @@
 <p>In a Hadoop cluster, there is a limited number of processes can be running spontaneously. This can be configured by cluster admin by setting “org.apache.hadoop.mapred.JobInProgress.initTasks”.  Since Hive query is computed by being partitioned into multiple map/reduce tasks, each task is a process. If you set the the split size to be too small, your query job will be splitted into many tasks. Having more tasks will definitely increase the parallelism of the query and accelerate the running time. However, if the number of tasks is too big and exceed the number of task limit, then it will be killed by the cluster.</p>
 <h3 id="-solution">💊 Solution:</h3>
 
-<p>Set mapred.max.split.size to be smaller.</p>
+<p>Set mapred.max.split.size to be bigger.</p>
 
 <h2 id="-symptom2-the-query-exits-after-a-few-mapsreduces-tasks-running-log-says-disk-quota-exceeded">🤒 Symptom2: The query exits after a few maps/reduces tasks running. Log says “disk quota exceeded”</h2>
 <h3 id="-why-1">🤔 Why?</h3>
@@ -730,22 +730,6 @@
 
   
 
-    <div id="access-lastmod" class="post">
-      <span>Recent Update</span>
-      <ul class="post-content pl-0 pb-1 ml-1 mt-2">
-
-      
-        
-        
-        
-        <li><a href="/posts/summarized-quotes-from-the-book-building-a-career-in-software/">Summarized Quotes from the Book Building a Career in Software</a></li>
-      
-
-      </ul>
-    </div> <!-- #access-lastmod -->
-
-  
-
   
 
 
@@ -921,6 +905,64 @@
         
         
 
+  
+    
+    
+    
+    
+      
+    
+  
+    
+    
+    
+    
+      
+    
+  
+    
+    
+    
+    
+      
+    
+  
+    
+    
+    
+    
+      
+    
+  
+    
+    
+    
+    
+      
+    
+  
+    
+    
+    
+    
+      
+    
+  
+    
+    
+    
+    
+      
+        
+        
+
+  
+    
+    
+    
+    
+      
+    
   
     
     
@@ -984,13 +1026,16 @@
         <a class="post-tag" href="/tags/binary-search/">binary search</a>
       
         
-        <a class="post-tag" href="/tags/career/">career</a>
-      
-        
         <a class="post-tag" href="/tags/debug/">debug</a>
       
         
         <a class="post-tag" href="/tags/hive-queries/">hive queries</a>
+      
+        
+        <a class="post-tag" href="/tags/lifestyle/">lifestyle</a>
+      
+        
+        <a class="post-tag" href="/tags/productivity/">productivity</a>
       
         
         <a class="post-tag" href="/tags/queue/">queue</a>
@@ -1154,7 +1199,7 @@
       
       
       <div class="card">
-        <a href="/posts/summarized-quotes-from-the-book-building-a-career-in-software/">
+        <a href="/posts/writing-on-the-sixth-month-after-moving-out-of-the-bay-area/">
           <div class="card-body">
             <!--
   Date format snippet
@@ -1175,14 +1220,14 @@
   
 
   
-    Mar 31
+    Jul 11
   
 
-  <i class="unloaded">2021-03-31T04:15:00-07:00</i>
+  <i class="unloaded">2021-07-11T07:20:00-07:00</i>
 
 </span>
 
-            <h3 class="pt-0 mt-1 mb-3" data-toc-skip>Summarized Quotes from the Book Building a Career in Software</h3>
+            <h3 class="pt-0 mt-1 mb-3" data-toc-skip>Writing on the Sixth Month after Moving out of the Bay Area</h3>
             <div class="text-muted small">
               <p>
                 
@@ -1191,8 +1236,7 @@
 
 
 
-                It’s not a super lengthy book, yet it provides concrete actionable items which I think will for sure benefit the career of engineers like you and me. 
-I don’t own any contents below. I just organiz...
+                By January early this year, I had been working from home for almost a year due to Covid 19. I finally decided to move out of the bay area. In hindsight, it was the biggest yet most spontaneous deci...
               </p>
             </div>
           </div>
@@ -1621,6 +1665,64 @@ Overview
         
         
 
+  
+    
+    
+    
+    
+      
+    
+  
+    
+    
+    
+    
+      
+    
+  
+    
+    
+    
+    
+      
+    
+  
+    
+    
+    
+    
+      
+    
+  
+    
+    
+    
+    
+      
+    
+  
+    
+    
+    
+    
+      
+    
+  
+    
+    
+    
+    
+      
+    
+  
+    
+    
+    
+    
+      
+        
+        
+
 
 
       
@@ -1628,13 +1730,16 @@ Overview
         <a class="post-tag" href="/tags/binary-search/">binary search</a>
       
         
-        <a class="post-tag" href="/tags/career/">career</a>
-      
-        
         <a class="post-tag" href="/tags/debug/">debug</a>
       
         
         <a class="post-tag" href="/tags/hive-queries/">hive queries</a>
+      
+        
+        <a class="post-tag" href="/tags/lifestyle/">lifestyle</a>
+      
+        
+        <a class="post-tag" href="/tags/productivity/">productivity</a>
       
         
         <a class="post-tag" href="/tags/queue/">queue</a>
