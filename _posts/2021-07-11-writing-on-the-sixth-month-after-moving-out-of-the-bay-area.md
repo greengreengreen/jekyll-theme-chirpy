@@ -42,4 +42,4 @@ The biggest advantage my home office brought me is a boundary between work and l
 ### Tranquility is invaluable.
 In the book "Keep Going", the author wrote "Disconnect from the world to connect with yourself". I moved to this small town during the pandemic knowing almost no one. The feeling of being disconnected is palpable, but the corresponding tranquility is something I had never experienced in big cities.<br>
 
-Overall, I am truly grateful for my new place. If you are still hesitating to move out of a big city, I hope my experience helped you.
+Overall, I am truly grateful for my new place. If you are still hesitating to move out of a big city, I hope my experience helped you. 
